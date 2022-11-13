@@ -3,6 +3,6 @@ window.onload = function() {
         event.preventDefault();
     var emailId = document.getElementById('emailInput').value;
     var password = document.getElementById('passwordInput').value;
-    document.getElementById('submitBtn').onclick = console.log(`Email: ${emailId} Password: ${password}`);
+    // document.getElementById('submitBtn').onclick = redire;
     });
 }
