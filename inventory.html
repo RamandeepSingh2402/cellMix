@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="english"> 
+    <head>
+        <link rel="stylesheet" href="inventory.css">
+    </head>
+    <body>
+        
+        <div >
+            <div id="imageUpload" >
+
+            </div>
+            <p id="openingPara">
+                Kindly enter the details below:
+            </p>
+
+            <form id="dropdown">
+                <label>
+                    Type: 
+                </label>
+                <select id="selection">
+                    <option id="phone">
+                        Phone
+                    </option>
+                    <option id="tablet">
+                        Tablet
+                    </option>
+                    <option id="ipad">
+                        Ipad
+                    </option>
+                    <option id="accessories">
+                        Accessories
+                    </option>
+                </select>
+                <button type="submit" id="btn"> Select </button>
+                <input type="file"></input>
+            </form>
+            <div id="views"> 
+            <div id="phoneView">
+                    <p>
+                        Enter details of the product for phone below:
+                    </p>
+                    <form id="phoneForm">
+                        <label for="brandName">Brand Name</label>
+                        <select id="brandNameOption">
+                            <option id="Apple">
+                                Apple
+                            </option>
+                            <option id="Samsung">
+                                Samsung
+                            </option>
+                            <option id="Google">
+                                Google
+                            </option>
+                            <option id="Motorola">
+                                Motorola
+                            </option>
+                            <option id="TCL">
+                                TCL
+                            </option>
+                            <option id="Alcatel">
+                                Alcatel
+                            </option>   
+                        </select>
+                        <label for="modelName">Model Name</label>
+                        <input type="text" placeholder="Model Name">
+                        <label for="caseType">Type of case</label>
+                        <select id="phoneCase">
+                            <option id="Protective">
+                                Protective
+                            </option>
+                            <option id="Clear">
+                                Clear
+                            </option>
+                            <option id="Modular">
+                                Modular
+                            </option>
+                            <option id="Bumper">
+                                Bumper
+                            </option>
+                            <option id="ModularBumper">
+                                Modular bumper
+                            </option>
+                            <option id="Otter Box">
+                                Otter Box
+                            </option>
+                            <option id="LifeProof">
+                                LifeProof
+                            </option>
+                        </select>
+                        <label for="productColor">Product Color</label>
+                        <input type="text" placeholder="Product Color">
+                        <label for="modelName">Product Price</label>
+                        <input type="text" placeholder="Product Price">
+                    </form>    
+            </div>
+            <div id="tabletView">
+                <p>
+                    Enter details of the product for tablet below:
+                </p>
+                <form id="tabletForm">
+                    <label for="brandName">Brand Name</label>
+                    <select id="brandNameOption">
+                        <option id="Samsung">
+                            Samsung
+                        </option>
+                        <option id="Google">
+                            Google
+                        </option>
+                        <option id="Motorola">
+                            Motorola
+                        </option>
+                        <option id="TCL">
+                            TCL
+                        </option>
+                        <option id="Alcatel">
+                            Alcatel
+                        </option>   
+                    </select>
+                    <label for="modelName">Model Name</label>
+                    <input type="text" placeholder="Model Name">
+                    <label for="productType">Type of case</label>
+                    <select id="caseTypeSelection">
+                        <option id="Protective">
+                            Protective
+                        </option>
+                        <option id="Clear">
+                            Clear
+                        </option>
+                        <option id="Modular">
+                            Modular
+                        </option>
+                        <option id="Bumper">
+                            Bumper
+                        </option>
+                        <option id="ModularBumper">
+                            Modular bumper
+                        </option>
+                        <option id="Otter Box">
+                            Otter Box
+                        </option>
+                        <option id="LifeProof">
+                            LifeProof
+                        </option>
+                    </select>
+                    <label for="productColor">Product Color</label>
+                    <input type="text" placeholder="Product Color">
+                    <label for="productPrice">Product Price</label>
+                    <input type="text" placeholder="Product Price">
+                </form>
+            </div>
+            <div id="ipadView">
+                <p>
+                    Enter details of the product for Ipad below:
+                </p>
+                <form id="ipadForm">
+                    <label for="modelName">Model Name</label>
+                    <input type="text" placeholder="Model Name">
+                    <label for="productType">Type of case</label>
+                    <select id="caseTypeSelection">
+                            <option id="Protective">
+                                Protective
+                            </option>
+                            <option id="Clear">
+                                Clear
+                            </option>
+                            <option id="Modular">
+                                Modular
+                            </option>
+                            <option id="Bumper">
+                                Bumper
+                            </option>
+                            <option id="ModularBumper">
+                                Modular bumper
+                            </option>
+                            <option id="Otter Box">
+                                Otter Box
+                            </option>
+                            <option id="LifeProof">
+                                LifeProof
+                            </option>   
+                    </select>
+                    <label for="productColor">Product Color</label>
+                    <input type="text" placeholder="Product Color">
+                    <label for="productPrice">Product Price</label>
+                    <input type="text" placeholder="Product Price">
+                </form>
+            </div>
+            <div id="accessoriesView">
+                <p>
+                    Enter details of the accessories below:
+                </p>
+                <form id="accessoriesForm">
+                    <label for="brandName">Brand Name</label>
+                    <input type="text" placeholder="Brand Name">
+                    <label for="productName">Product Name</label>
+                    <input type="text" placeholder="Product Name">
+                    <label for="productType">Product Type</label>
+                    <input type="text" placeholder="Product Type">
+                    <label for="productPrice">Product Price</label>
+                    <input type="text" placeholder="Product Price">
+                </form>
+            </div>
+            </div>
+            <button id="saveBtn" onclick="alert('Details saved')">Save</button>
+        </div>
+        <script src="upload.js"></script>
+    </body>
+</html>
